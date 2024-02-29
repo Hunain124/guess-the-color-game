@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the  color game</title>
+</head>
+<body>
+    <script>
+        const favColor = "black";
+        let guess=prompt("what is my favorit color");
+        while(guess!=favColor && guess!="quit"){
+            guess=prompt("Plz try again","if you want to quit so type quit else guess another color")
+        }if(guess==favColor){
+            alert("congrats! you win")
+        }else{
+            alert("Game over")
+        }
+    </script>
+    
+</body>
+</html>
